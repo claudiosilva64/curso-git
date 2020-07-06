@@ -8,11 +8,14 @@ namespace PrimeiroProjeto
 {
     class Employee
     {
-    
+
         public int Id { get; set; }
         public string Name { get; set; }
         public double Salary { get; set; }
 
+        public Employee() { }
+
+       
         public Employee(int id, string name, double salary)
         {
             Id = id;
